@@ -21,6 +21,15 @@ Jimmy
 * Show summary of all files 
 * Calculate the summation of activated credit and debit accounts
 ```
+<p>
+  <img src="https://lh3.googleusercontent.com/rvryiDeAJNdO0F-xBA76OYFc0fHTd7nWP6RPIMYJE1NAgjEU208OKRwxCMmfKsJoTe14=h900-rw"
+    width="30%" height="30%">
+  <img src="https://lh3.googleusercontent.com/NClE-6Tg5QVsr0uXlLhD3gOceEcs7687cd1mQElBg_R6EYJ-i3K_CYlJ3enrhSfTKak=h900-rw" 
+    width="30%" height="30%">
+  <img src="https://lh3.googleusercontent.com/l_qgqe0a-Hq1suxL2BLVUtKVVMelCkH_mGzqEuKWCXB0YEITGivzpzI3eI9GE0fsPMg=h900-rw" 
+    width="30%" height="30%">
+</p>
+
 
 ## Installing
 
