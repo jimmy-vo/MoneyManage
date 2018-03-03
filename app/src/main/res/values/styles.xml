@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/selectedRow</item>
+
+
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextDefault</item>
+        <item name="android:textColorPrimary">@color/colorTextDefault</item>
+        <item name="android:textColor">@color/colorTextDefault</item>
+    </style>
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat.Light">
+        <item name="android:textColorSecondary">@color/colorTextDefault</item>
+        <item name="android:textColorPrimary">@color/colorTextDefault</item>
+        <item name="android:textColor">@color/colorTextDefault</item>
+
+    </style>
+
+
+    <style name="AppTheme.PopupOverlay" parent="Theme.AppCompat.Light">
+        <item name="android:textColorSecondary">@color/colorTextDefault</item>
+        <item name="android:textColorPrimary">@color/colorTextDefault</item>
+        <item name="android:textColor">@color/colorTextDefault</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/selectedRow</item>
+        <item name="android:textSize">20sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/selectedRow</item>
+        <item name="colorControlNormal">@color/selectedRow</item>
+        <item name="colorControlActivated">@color/selectedRow</item>
+    </style>
+</resources>

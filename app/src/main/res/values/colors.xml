@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#101010</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#b8b8b8</color>
+
+    <color name="selectedRow">#454c72</color>
+    <color name="cellBackGround"        >#00ff0000</color>
+    <color name="cellHeadingBackground" >#6D7B89</color>
+
+
+    <color name="background">#CDD8D9</color>
+    <color name="popupBackground" >#3A4B5C</color>
+
+    <color name="transparent">#00ff0000</color>
+
+    <color name="colorTextHint">#D6D6D6</color>
+    <color name="colorTextDefault">#ffffff</color>
+    <color name="colorTextError">#DC143C</color>
+</resources>

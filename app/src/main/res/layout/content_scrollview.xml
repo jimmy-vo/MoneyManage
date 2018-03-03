@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/baseView"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.JimmyVo.MoneyManage.Activity.TransactionsActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:weightSum="1"
+
+
+        android:id="@+id/table_wrapper"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.JimmyVo.MoneyManage.Activity.TransactionsActivity"
+        tools:showIn="@layout/app_bar_main">
+
+        <HorizontalScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+
+                <TableLayout
+                    android:id="@+id/table_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"></TableLayout>
+
+            </ScrollView>
+
+        </HorizontalScrollView>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>
